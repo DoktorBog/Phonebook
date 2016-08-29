@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Phonebook</string>
+    <string name="login">admin</string>
+    <string name="password">123456</string>
+    <string name="empty_error">must be not empty</string>
+    <string name="its">it\'s</string>
+    <string name="loading">Loading...</string>
+    <string name="edit_contact">Edit</string>
+    <string name="delete_contact">Delete</string>
+    <string name="favorite_contact">favorite</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="about_text"><![CDATA[
+        created by <b>Bogdan Hrechanuyk</b>.<br/>
+        <a href=\'http://hh.ua/resume/6c943df7ff033d32d20039ed1f62534c787864\'>Summary</a>&nbsp;&nbsp;
+        <a href=\'https://facebook.com/bogdan.grecanuk\'>Facebook</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/DoktorBog/Phonebook\'>Source code</a>
+    ]]></string>
 </resources>

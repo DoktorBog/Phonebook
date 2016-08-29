@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="list_items">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Main</item>
+        <item>Fax work</item>
+        <item>Fax home</item>
+        <item>Pager</item>
+        <item>Other</item>
+    </string-array>
+</resources>

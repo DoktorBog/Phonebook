@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callIcon"
+        android:src="@drawable/ic_phone"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/phoneNumber"
+        android:textColor="#000"
+        android:layout_toLeftOf="@+id/message"
+        android:layout_toRightOf="@+id/callIcon"
+        android:layout_toEndOf="@+id/callIcon"
+        android:singleLine="true"
+        android:text="(099) 35-36-799"
+        android:layout_toStartOf="@+id/message"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mobile"
+        android:id="@+id/description"
+        android:layout_below="@+id/phoneNumber"
+        android:layout_alignLeft="@+id/phoneNumber"
+        android:layout_alignStart="@+id/phoneNumber"
+        android:layout_marginTop="2dp"
+        android:layout_alignRight="@+id/phoneNumber"
+        android:layout_alignEnd="@+id/phoneNumber"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:padding="5dp"
+        android:src="@drawable/ic_message"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.phonebook.app.ui.LoginActivity">
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.phonebook.app.ui.LoginActivity"
+    android:background="@color/colorPrimary">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        app:met_floatingLabel="normal"
+        android:id="@+id/loginTV"
+        app:met_primaryColor="#FFF"
+        app:met_baseColor="#FFF"
+        app:met_textColor = "#FFF"
+        app:met_textColorHint = "@color/hintColor"
+        app:met_floatingLabelTextColor="@color/hintColor"
+        android:textColor="#d4d4d4"
+        android:layout_above="@+id/passwordTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        app:met_textColor = "#FFF"
+        app:met_floatingLabel="normal"
+        app:met_textColorHint = "@color/hintColor"
+        app:met_floatingLabelTextColor = "@color/hintColor"
+        app:met_primaryColor="#FFF"
+        app:met_baseColor="#FFF"
+        android:id="@+id/passwordTV"
+        android:layout_centerVertical="true"
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        style="@style/AppTheme.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/passwordTV"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_above="@+id/loginTV"
+        android:layout_marginBottom="5dp" />
 
 </RelativeLayout>

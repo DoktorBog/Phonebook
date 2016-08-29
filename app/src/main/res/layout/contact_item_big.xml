@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/image_favorite"
+            android:layout_height="@dimen/image_favorite"
+            android:src="@drawable/circle_icon"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/contact_first_letter"
+            android:layout_width="@dimen/image_favorite"
+            android:layout_height="@dimen/image_favorite"
+            android:textColor="#ffffff"
+            android:textSize="27dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="B"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:id="@+id/name"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginBottom="5dp"
+            android:layout_alignLeft="@+id/profile_image"
+            android:layout_alignStart="@+id/profile_image"
+            android:layout_alignRight="@+id/profile_image"
+            android:layout_alignEnd="@+id/profile_image"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</RelativeLayout>
