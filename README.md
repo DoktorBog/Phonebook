@@ -1,4 +1,4 @@
 # Phonebook
-![alt tag](http://imgur.com/9cxg8RM)
-![alt tag](http://imgur.com/0aeeVgy)
-![alt tag](http://imgur.com/vdKcVvi)
+![alt tag](http://i.imgur.com/9cxg8RM.png)
+![alt tag](http://i.imgur.com/vdKcVvi.png)
+![alt tag](http://i.imgur.com/0aeeVgy.png)
